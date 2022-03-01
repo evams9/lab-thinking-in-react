@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+html {
+display: flex;
+justify-content: space-evenly;
+}
+
+.row  {
+justify-content: space-evenly;
+padding: 4px 10px;
+}
+
+#price {
+align-items: flex-end;
+/*justify-content: end;*/
+}
+
+#name {
+align-items: flex-start;
+}
